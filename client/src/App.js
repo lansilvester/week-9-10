@@ -7,6 +7,7 @@ import Header from './components/header/Header';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import DataProvider from './context/DataProvider'
+import CreatePost from './components/create/CreatePost';
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
         <Routes>
             <Route path='/login' element={<Login />} />        
             <Route path='/' element={<Home />} />        
-              
+          </Routes> 
+          <Routes>
+            <Route path='/create' element={<Login />} />        
+            <Route path='/create' element={<CreatePost />} />        
           </Routes>
         </div>
       </BrowserRouter>
