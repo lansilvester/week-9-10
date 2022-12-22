@@ -10,9 +10,6 @@ const Header = () => {
         <Component>
             <Toolbar>
                 <Typography>Home</Typography>
-                <Typography>Home</Typography>
-                <Typography>Home</Typography>
-                <Typography>Home</Typography>
             </Toolbar>
         </Component>
     )
